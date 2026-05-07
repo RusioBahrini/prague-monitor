@@ -8,8 +8,7 @@ from datetime import datetime
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 CHAT_ID   = os.environ.get("CHAT_ID", "")
 URL       = "https://prague.pasport.org.ua/solutions/e-queue"
-CHECK_INTERVAL = 90
-
+CHECK_INTERVAL = 1860
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
