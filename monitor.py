@@ -5,8 +5,8 @@ import os
 from playwright.async_api import async_playwright
 from datetime import datetime
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-CHAT_ID   = os.environ.get("CHAT_ID", "")
+BOT_TOKEN = "8071452647:AAH10ZDGPAdT3G_3RDl540UojRNhxbeaCcg"
+CHAT_ID   = "884011530"
 URL       = "https://prague.pasport.org.ua/solutions/e-queue"
 CHECK_INTERVAL = 1860
 def log(msg):
